@@ -1,0 +1,82 @@
+# Curated skills / tools / frameworks taxonomy (lowercase, one per line)
+python
+java
+c++
+c#
+javascript
+typescript
+sql
+html
+css
+react
+angular
+vue
+node.js
+express
+flask
+django
+fastapi
+spring boot
+spring
+hibernate
+rest api
+graphql
+microservices
+docker
+kubernetes
+aws
+ec2
+s3
+lambda
+cloudfront
+azure
+gcp
+mysql
+postgresql
+mongodb
+redis
+elasticsearch
+kafka
+rabbitmq
+git
+github
+gitlab
+jenkins
+ci/cd
+agile
+scrum
+jira
+postman
+junit
+pytest
+selenium
+data structures
+algorithms
+dynamic programming
+oop
+object-oriented programming
+dbms
+operating systems
+computer networks
+system design
+machine learning
+deep learning
+nlp
+natural language processing
+llm
+tensorflow
+pytorch
+scikit-learn
+pandas
+numpy
+matplotlib
+tf-idf
+tokenization
+cosine similarity
+authentication
+authorization
+jwt
+oauth
+encryption
+solid principles
+clean architecture

@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block title %}{{ template.name }} — Template
+Preview{% endblock %} {% block content %}
+<div
+  style="font-family: {{ template.font }}, sans-serif; max-width: 700px; margin: 40px auto; color: #222; padding: 20px;"
+>
+  <h2 style="color: #{{ template.accent }};">
+    SAMPLE RESUME — {{ template.name }}, {{ template.layout }}
+  </h2>
+  <div
+    style="border: 2px dashed #{{ template.accent }}; padding: 16px; border-radius: 8px;"
+  >
+    <h1 style="text-align:center; color:#{{ template.accent }}; margin:0;">
+      HARSHAL MUNOT
+    </h1>
+    <p style="text-align: center; font-size: 13px; color: #666">
+      Vadodara, Gujarat | harshalpm16@gmail.com | +91 7499766659
+    </p>
+    <h3
+      style="color:#{{ template.accent }}; border-bottom:2px solid #{{ template.accent }}; padding-bottom:4px;"
+    >
+      SUMMARY
+    </h3>
+    <p>
+      Third-year B.Tech CSE (AI & DS) student. Hands-on Python, Java, Spring
+      Boot, Flask and MySQL. Solved 195+ DSA problems.
+    </p>
+    <h3
+      style="color:#{{ template.accent }}; border-bottom:2px solid #{{ template.accent }}; padding-bottom:4px;"
+    >
+      PROJECTS
+    </h3>
+    <ul>
+      <li>AI DSA Coach — Flask + LLM coding assistant</li>
+      <li>AI Resume Analyzer — NLP ATS scoring app</li>
+      <li>E-Commerce Backend API — Spring Boot + JWT</li>
+    </ul>
+    <h3
+      style="color:#{{ template.accent }}; border-bottom:2px solid #{{ template.accent }}; padding-bottom:4px;"
+    >
+      EDUCATION
+    </h3>
+    <p>Parul University — B.Tech CSE (AI & DS), CGPA 7.5/10</p>
+  </div>
+  <p style="text-align: center; margin-top: 20px">
+    This is a sample. Upload your resume and hit "Export as .docx" to build
+    yours in this style.
+  </p>
+</div>
+{% endblock %}
